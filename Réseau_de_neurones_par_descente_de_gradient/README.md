@@ -1,6 +1,6 @@
 # Réseau de Neurones avec Descente de Gradient
 
-Ce projet vise à implémenter un réseau de neurones entraîné par descente de gradient, afin d’explorer le fonctionnement de l’apprentissage supervisé.
+Ce projet vise à créer un réseau de neurones entraîné par descente de gradient, afin d’explorer le fonctionnement de l’apprentissage supervisé.
 ##  Objectifs
 
 Implémenter un réseau de neurones à partir de zéro (sans frameworks comme TensorFlow ou PyTorch pour le moment, ces frameworks seront néanmoins utilisés dans la suite du projet
