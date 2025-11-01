@@ -1,4 +1,4 @@
-#  Réseau de Neurones avec Descente de Gradient
+#  ml-projects-collection
 
 L’objectif de ce repository est d’organiser l’ensemble de mes codes Python liés à l’intelligence artificielle (IA), au deep learning et au machine learning.
 
