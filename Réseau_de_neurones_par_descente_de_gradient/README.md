@@ -12,7 +12,7 @@ Implémenter un réseau de neurones à partir de zéro (sans frameworks comme Te
 
 - Python 3.10+
 - NumPy pour les opérations matricielles
-- Matplotlib (optionnel) pour visualiser la perte ou les prédictions
+- Matplotlib pour visualiser la perte ou les prédictions
 
 
 
