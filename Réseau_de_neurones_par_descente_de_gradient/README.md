@@ -3,7 +3,7 @@
 Ce projet vise à créer un réseau de neurones entraîné par descente de gradient, afin d’explorer le fonctionnement de l’apprentissage supervisé.
 ##  Objectifs
 
-Implémenter un réseau de neurones à partir de zéro (sans frameworks comme TensorFlow ou PyTorch pour le moment, ces frameworks seront néanmoins utilisés dans la suite du projet
+Implémenter un réseau de neurones à partir de zéro (sans frameworks comme TensorFlow ou PyTorch pour le moment)
 - Comprendre le fonctionnement de la descente de gradient
 - Tester l’apprentissage sur une base de données simulée
 - Préparer une base pour des extensions futures (classification réelle, visualisation, etc.)
