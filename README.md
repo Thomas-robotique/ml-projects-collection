@@ -1,4 +1,4 @@
-# 🧠 Réseau de Neurones avec Descente de Gradient
+#  Réseau de Neurones avec Descente de Gradient
 
 L’objectif de ce repository est d’organiser l’ensemble de mes codes Python liés à l’intelligence artificielle (IA), au deep learning et au machine learning.
 
@@ -6,5 +6,5 @@ Certains projets, comme le réseau de neurones entraîné avec l’algorithme de
 
 D’autres projets, en revanche, utiliseront ces outils professionnels qui sont essentiels pour la suite de ma progression et pour développer des modèles plus complexes et performants.
 
-## 🗂️ Structure du projet
+##  Structure du projet
 AI_Train
