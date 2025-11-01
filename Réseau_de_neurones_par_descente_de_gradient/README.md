@@ -14,6 +14,5 @@ Implémenter un réseau de neurones à partir de zéro (sans frameworks comme Te
 - NumPy pour les opérations matricielles
 - Matplotlib (optionnel) pour visualiser la perte ou les prédictions
 
-##  Structure du projet
 
 
