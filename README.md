@@ -1,18 +1,10 @@
-# Réseau de Neurones avec Descente de Gradient
+# 🧠 Réseau de Neurones avec Descente de Gradient
 
-Ce projet vise à implémenter un réseau de neurones entraîné par descente de gradient, afin d’explorer le fonctionnement de l’apprentissage supervisé.
-##  Objectifs
+L’objectif de ce repository est d’organiser l’ensemble de mes codes Python liés à l’intelligence artificielle (IA), au deep learning et au machine learning.
 
-Implémenter un réseau de neurones à partir de zéro (sans frameworks comme TensorFlow ou PyTorch pour le moment, ces frameworks seront néanmoins utilisés dans la suite du projet
-- Comprendre le fonctionnement de la descente de gradient
-- Tester l’apprentissage sur une base de données simulée
-- Préparer une base pour des extensions futures (classification réelle, visualisation, etc.)
+Certains projets, comme le réseau de neurones entraîné avec l’algorithme de descente de gradient, sont réalisés entièrement à partir de zéro, sans utiliser de frameworks tels que PyTorch. L’objectif est de comprendre en profondeur le fonctionnement de ces algorithmes fondamentaux.
 
-##  Technologies utilisées
+D’autres projets, en revanche, utiliseront ces outils professionnels qui sont essentiels pour la suite de ma progression et pour développer des modèles plus complexes et performants.
 
-- Python 3.10+
-- NumPy pour les opérations matricielles
-- Matplotlib (optionnel) pour visualiser la perte ou les prédictions
-
-##  Structure du projet
-
+## 🗂️ Structure du projet
+AI_Train
