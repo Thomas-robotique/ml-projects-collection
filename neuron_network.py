@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 from sklearn.metrics import accuracy_score
 
+# Création de la base de données d'entraînement fictive
 X, y = make_blobs(n_samples=200, n_features=2, centers=2, random_state=0)
 y = y.reshape((y.shape[0], 1))
 
@@ -78,12 +79,12 @@ def Neuron_network(X, y, a=0.1, n_inter=1000):
 Y = np.array([2, 1])   # point à prédire
 plt.scatter(Y[0], Y[1], color='r')
 
-'''
+
 w, b = Neuron_network(X, y)
-y_pred = model(Y, w, b)
+y_pred = predict(Y, w, b)
 
 print("La plante est toxique à " + str(y_pred * 100) + "%")
-'''
+
 
    
 
