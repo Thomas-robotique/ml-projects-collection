@@ -55,11 +55,15 @@ def predict(Y, w, b):
 def Neuron_network(X, y, a=0.1, n_inter=1000):
     w, b = Initialisation(X)
     loss = []
+    acc =[]
     for i in range(n_inter):
         A = model(X, w, b)
         loss.append(Logg_loss(A, y))
         dw, db = gradiant(y, X, A)
         w, b = uptade(w, b, dw, db, a)
+        y_pred= predict(X,w,b)
+    acc.append(accuracy_score(y, y_pred))  # Calcule le taux de précision entre les vraies étiquettes (y) et les prédictions (y_pred)
+        
  
     
     # Affichage de la fonction log_loss
@@ -69,6 +73,8 @@ def Neuron_network(X, y, a=0.1, n_inter=1000):
     plt.xlabel("Itérations", fontsize=12)
     plt.ylabel("Log Loss", fontsize=12)
     plt.grid(True)
+    plt.plot(acc)  # Affiche la courbe d'accuracy sur le graphe, utile pour repérer un éventuel surapprentissage (overfitting)
+
     plt.show()
     return w, b
     
