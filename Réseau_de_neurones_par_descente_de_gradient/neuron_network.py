@@ -51,7 +51,7 @@ def predict(Y, w, b):
     A = model(Y, w, b)
     return A >= 0.5
 
-
+# Fonction finale qui combine toutes les fonctions précédentes dans une boucle avec un nombre d’itérations fixé. Plus ce nombre est grand, plus le modèle s’entraîne longtemps.
 def Neuron_network(X, y, a=0.1, n_inter=1000):
     w, b = Initialisation(X)
     loss = []
