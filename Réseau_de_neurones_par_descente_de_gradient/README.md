@@ -18,11 +18,7 @@ Implémenter un réseau de neurones à partir de zéro (sans frameworks comme Te
 - NumPy pour les opérations matricielles
 - Matplotlib pour visualiser la perte ou les prédictions
 
-##  Structure du projet 
-```text
- ┣ Réseau_de_neurones_par_descente_de_gradient/
- ┃ ┣ README.md
- ┃ ┗ neurone_network.p
+
  
 
 
