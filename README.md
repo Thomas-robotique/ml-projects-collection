@@ -7,4 +7,10 @@ Certains projets, comme le réseau de neurones entraîné avec l’algorithme de
 D’autres projets, en revanche, utiliseront ces outils professionnels qui sont essentiels pour la suite de ma progression et pour développer des modèles plus complexes et performants.
 
 ##  Structure du projet
-AI_Train
+```text
+
+ml-project-collection/
+ ┣ README.md/
+ ┣ Réseau_de_neurones_par_descente_de_gradient/
+ ┃ ┣ README.md
+ ┃ ┗ neurone_network.p
