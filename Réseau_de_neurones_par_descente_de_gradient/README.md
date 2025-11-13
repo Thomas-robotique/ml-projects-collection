@@ -19,7 +19,7 @@ Implémenter un réseau de neurones à partir de zéro (sans frameworks comme Te
 - Matplotlib pour visualiser la perte ou les prédictions
 
 ##  Structure du projet 
-ml-project-collection/ (.)
+ml-project-collection/ 
  ┣ Réseau_de_neurones_par_descente_de_gradient/
  
  ┃ ┣ neurone_network.py
