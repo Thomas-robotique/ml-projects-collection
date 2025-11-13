@@ -21,7 +21,8 @@ Implémenter un réseau de neurones à partir de zéro (sans frameworks comme Te
 ##  Structure du projet 
 ```text
 
-ml-project-collection/ 
+ml-project-collection/
+ ┣ README.md/
  ┣ Réseau_de_neurones_par_descente_de_gradient/
  ┃ ┣ neurone_network.py
  
