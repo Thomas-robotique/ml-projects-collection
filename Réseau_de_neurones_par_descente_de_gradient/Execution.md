@@ -20,7 +20,12 @@ plt.scatter(X[:,0], X[:, 1], c=y, cmap='summer')
 Voici la base de données fictive que j'ai générée grâce à la bibliothèque scikit-learn.
 
 
+
 ```cpp
+
+
+
+
 def Neuron_network(X, y, a=0.01, n_inter=3000):
     acc= []
     w, b = Initialisation(X)
@@ -49,3 +54,12 @@ def Neuron_network(X, y, a=0.01, n_inter=3000):
 
 
 <img width="990" height="700" alt="screen_log_loss" src="https://github.com/user-attachments/assets/b027aa0e-963b-476d-b574-8789270b587d" />
+
+
+
+
+
+Voici le code de l’entraînement du neurone avec l’exécution associée.  
+On constate que l’erreur entre les données d’entraînement et de test diminue fortement avec le temps, en se rapprochant de plus en plus de 0, ce qui montre que le neurone apprend correctement.
+
+
