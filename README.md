@@ -13,4 +13,4 @@ ml-project-collection/
  ┣ README.md/
  ┣ Réseau_de_neurones_par_descente_de_gradient/
  ┃ ┣ README.md
- ┃ ┗ neurone_network.p
+ ┃ ┗ neurone_network.py
