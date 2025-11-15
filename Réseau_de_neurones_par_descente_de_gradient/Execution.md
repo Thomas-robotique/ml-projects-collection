@@ -26,34 +26,35 @@ Voici la base de données fictive que j'ai générée grâce à la bibliothèque
 
 
 
-def Neuron_network(X, y, a=0.01, n_inter=3000):
-    acc= []
+def Neuron_network(X, y, a=0.1, n_inter=1000):
     w, b = Initialisation(X)
     loss = []
+    acc =[]
     for i in range(n_inter):
         A = model(X, w, b)
         loss.append(Logg_loss(A, y))
         dw, db = gradiant(y, X, A)
         w, b = uptade(w, b, dw, db, a)
         y_pred= predict(X,w,b)
-        #acc.append(accuracy_score(y,y_pred))
-    
- 
-    
-    # Affichage de la fonction log_loss
+    acc.append(accuracy_score(y, y_pred))  # Calcule le taux de précision entre les vraies étiquettes(y)                                               et les prédictions (y_pred)
+
+# Affichage de la fonction log_loss
     plt.figure(figsize=(8, 5))
     plt.plot(loss, color='blue', linewidth=2)
     plt.title("Évolution du Log Loss pendant l'apprentissage", fontsize=14)
     plt.xlabel("Itérations", fontsize=12)
     plt.ylabel("Log Loss", fontsize=12)
     plt.grid(True)
-    # plt.plot(acc)
+    plt.plot(acc)  # Affiche la courbe d'accuracy sur le graphe, utile pour repérer un éventuel                         surapprentissage (overfitting)
+
     plt.show()
     return w, b
+    
 ```
 
 
-<img width="990" height="700" alt="screen_log_loss" src="https://github.com/user-attachments/assets/b027aa0e-963b-476d-b574-8789270b587d" />
+
+<img width="981" height="698" alt="screen_log_loss" src="https://github.com/user-attachments/assets/12ea85ca-58e7-4962-ab95-51141aef9bca" />
 
 
 
