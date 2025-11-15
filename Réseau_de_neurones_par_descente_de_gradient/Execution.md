@@ -62,4 +62,22 @@ def Neuron_network(X, y, a=0.01, n_inter=3000):
 Voici le code de l’entraînement du neurone avec l’exécution associée.  
 On constate que l’erreur entre les données d’entraînement et de test diminue fortement avec le temps, en se rapprochant de plus en plus de 0, ce qui montre que le neurone apprend correctement.
 
+```cpp
+Y = np.array([3, 5])   # point à prédirek
+plt.scatter(Y[0], Y[1], color='r')
+
+
+w, b = Neuron_network(X, y)
+y_pred = predict(Y, w, b)
+
+
+if y_pred > 0.5:
+    print("La plante est toxique à " + str(y_pred * 100) + "%")
+else:
+    print("La plante n’est pas toxique à " + str((1 - y_pred) * 100) + "%")
+```
+Ce code permet de créer un nouveau point (le point rouge sur la 1ère image), puis le neurone prédit la probabilité que ce point appartienne à l’une des catégories.
+
+Dans cet exemple, le contexte choisi est une classification de plantes en fonction de leur toxicité.  
+La toxicité repose sur les dimensions de leurs feuilles, représentées respectivement par l’abscisse et l’ordonnée du graphique.
 
