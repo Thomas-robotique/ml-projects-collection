@@ -82,7 +82,7 @@ def Neuron_network(X, y, a=0.1, n_inter=1000):
 
 
 
-Y = np.array([2, 1])   # point à prédire
+Y = np.array([3, 5])   # point à prédire
 plt.scatter(Y[0], Y[1], color='r')
 
 
