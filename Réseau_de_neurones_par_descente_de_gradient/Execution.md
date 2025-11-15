@@ -54,7 +54,7 @@ def Neuron_network(X, y, a=0.1, n_inter=1000):
 
 
 
-<img width="981" height="698" alt="screen_log_loss" src="https://github.com/user-attachments/assets/12ea85ca-58e7-4962-ab95-51141aef9bca" />
+<img width="981" height="698" alt="screen_log_loss" src="https://github.com/user-attachments/assets/097a0329-72fb-463e-96a3-49c47763f208" />
 
 
 
