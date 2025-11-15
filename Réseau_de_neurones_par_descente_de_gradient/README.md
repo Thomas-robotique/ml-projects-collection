@@ -7,7 +7,7 @@ Ensuite, à partir de ce neurone, je développerai un réseau de neurones destin
 
 ##  Objectifs
 
-Implémenter un réseau de neurones à partir de zéro (sans frameworks comme TensorFlow ou PyTorch pour le moment)
+Implémenter un réseau de neurones à partir de zéro (sans frameworks comme TensorFlow ou PyTorch pour le moment).
 - Comprendre le fonctionnement de la descente de gradient
 - Tester l’apprentissage sur une base de données simulée
 - Préparer une base pour des extensions futures (classification réelle, visualisation, etc.)
