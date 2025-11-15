@@ -63,6 +63,9 @@ def Neuron_network(X, y, a=0.1, n_inter=1000):
 Voici le code de l’entraînement du neurone avec l’exécution associée.  
 On constate que l’erreur entre les données d’entraînement et de test diminue fortement avec le temps, en se rapprochant de plus en plus de 0, ce qui montre que le neurone apprend correctement.
 
+De plus, la courbe d’accuracy montre que le modèle n’est pas en surapprentissage (overfitting), car elle se stabilise autour de la valeur 1, ce qui indique que le neurone gagne en précision.
+
+
 ```cpp
 Y = np.array([3, 5])   # point à prédirek
 plt.scatter(Y[0], Y[1], color='r')
