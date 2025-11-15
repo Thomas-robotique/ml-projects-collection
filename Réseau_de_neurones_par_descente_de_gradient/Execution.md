@@ -71,10 +71,8 @@ w, b = Neuron_network(X, y)
 y_pred = predict(Y, w, b)
 
 
-if y_pred > 0.5:
     print("La plante est toxique à " + str(y_pred * 100) + "%")
-else:
-    print("La plante n’est pas toxique à " + str((1 - y_pred) * 100) + "%")
+
 ```
 Ce code permet de créer un nouveau point (le point rouge sur la 1ère image), puis le neurone prédit la probabilité que ce point appartienne à l’une des catégories.
 
