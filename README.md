@@ -12,5 +12,6 @@ D’autres projets, en revanche, utiliseront ces outils professionnels qui sont 
 ml-project-collection/
  ┣ README.md/
  ┣ Réseau_de_neurones_par_descente_de_gradient/
+ ┃ ┣ Exécution.md
  ┃ ┣ README.md
  ┃ ┗ neurone_network.py
