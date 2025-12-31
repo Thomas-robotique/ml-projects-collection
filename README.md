@@ -12,7 +12,7 @@ J’utilise principalement Python pour tous mes projets.
 Certains d’entre eux sont développés en repartant de zéro, sans utiliser de framework comme PyTorch, afin de comprendre en profondeur le fonctionnement d’un réseau de neurones
 
 
-Une fois ces bases maîtrisées, je développe également des projets utilisant des frameworks modernes comme PyTorch, afin de passer à des modèles plus avancés et à des applications réelles.
+Une fois ces bases maîtrisées, je développerai également des projets utilisant des frameworks modernes comme PyTorch, afin de passer à des modèles plus avancés et à des applications réelles.
 
 ---
 
