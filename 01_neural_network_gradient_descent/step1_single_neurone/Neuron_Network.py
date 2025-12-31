@@ -1,4 +1,4 @@
-```
+```cpp
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
@@ -77,7 +77,8 @@ def Neuron_network(X,y, a=0.1, n_inter=200):
 w,b=Neuron_network(X,y)
 y_pred= model(X,w,b)
 print(accuracy_score(y, y_pred))
- ```
+
+```
     
 
 
