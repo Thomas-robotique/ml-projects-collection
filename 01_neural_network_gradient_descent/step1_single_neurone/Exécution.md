@@ -10,7 +10,9 @@ y = y.reshape((y.shape[0], 1))
 
 <img src="https://github.com/user-attachments/assets/6f226d4a-a99b-41a5-89d8-6853e8283eea" width="500" alt="screen_de_la_database">
 
-Voici la base do donnée générée grâce à la bibliothèque sklearn, cette base de donnée est complêtement arbitraire et ne represente rien de phyique, elle nous sert juste pour l'entrainement du neurone.
+Voici la base de données générée avec la bibliothèque sklearn.  
+Elle est entièrement artificielle et ne représente aucun phénomène physique réel ; elle sert uniquement de support pour l’entraînement du neurone.
+
 
 
 
