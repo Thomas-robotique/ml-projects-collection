@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 from sklearn.metrics import accuracy_score
 
+# Création de la base de données d'entraînement fictive
 X, y = make_blobs(n_samples=200, n_features=2, centers=2, random_state=0)
 y = y.reshape((y.shape[0], 1))
+
 ```
 
 <img src="https://github.com/user-attachments/assets/6f226d4a-a99b-41a5-89d8-6853e8283eea" width="500" alt="screen_de_la_database">
@@ -20,28 +22,45 @@ Il est utilisé pour tester la capacité du neurone à prédire correctement un 
 
 
 ```python
-def Neuron_network(X, y, a=0.1, n_inter=200):
+def Neuron_network(X, y, a=0.1, n_inter=1000):
     w, b = Initialisation(X)
     loss = []
+    acc =[]
     for i in range(n_inter):
         A = model(X, w, b)
         loss.append(Logg_loss(A, y))
         dw, db = gradiant(y, X, A)
         w, b = uptade(w, b, dw, db, a)
-
-    # Affichage de la fonction log loss
+        y_pred= predict(X,w,b)
+        acc.append(accuracy_score(y, y_pred))  # Calcule le taux de précision entre les vraies étiquettes (y) et les prédictions (y_pred)
+        
+ 
+    
+    # Affichage de la fonction log_loss
     plt.figure(figsize=(8, 5))
     plt.plot(loss, color='blue', linewidth=2)
     plt.title("Évolution du Log Loss pendant l'apprentissage", fontsize=14)
     plt.xlabel("Itérations", fontsize=12)
     plt.ylabel("Log Loss", fontsize=12)
     plt.grid(True)
+    plt.plot(acc)  # Affiche la courbe d'accuracy sur le graphe, utile pour repérer un éventuel surapprentissage (overfitting)
+
     plt.show()
     return w, b
+    
+
+
+
+
+Y = np.array([3, 5])   # point à prédire
+plt.scatter(Y[0], Y[1], color='r')
+
 
 w, b = Neuron_network(X, y)
-y_pred = model(X, w, b)
-print(accuracy_score(y, y_pred))
+y_pred = model(Y, w, b)
+
+print("La plante est toxique à " + str(y_pred * 100) + "%")
+
 
 ```
 
