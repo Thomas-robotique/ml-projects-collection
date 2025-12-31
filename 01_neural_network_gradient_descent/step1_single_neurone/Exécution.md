@@ -14,7 +14,11 @@ y = y.reshape((y.shape[0], 1))
 
 Voici la base de données générée avec la bibliothèque sklearn.  
 Elle est entièrement artificielle et ne représente aucun phénomène physique réel ; elle sert uniquement de support pour l’entraînement du neurone.
+
+
 Le point rouge correspond à un échantillon qui ne fait pas partie de la base de données d’entraînement.  
+
+
 Il est utilisé pour tester la capacité du neurone à prédire correctement un point jamais vu auparavant.
 
 
