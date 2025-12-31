@@ -45,5 +45,9 @@ print(accuracy_score(y, y_pred))
 
 <img width="700" height="698" alt="screen_log_loss" src="https://github.com/user-attachments/assets/455e98db-dd68-456e-aaa7-49aa2fde0b6f" />
 
+Voici l’exécution de la fonction finale `Neuron_network`.  
+Elle affiche l’évolution de la fonction coût, qui diminue progressivement jusqu’à tendre vers 0, montrant que le neurone apprend correctement.  
+La seconde courbe correspond à l’accuracy, qui augmente jusqu’à atteindre 1, signe que le modèle généralise bien et ne montre pas d’overfitting.
+
 
 
