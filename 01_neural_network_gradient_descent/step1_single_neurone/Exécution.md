@@ -14,11 +14,11 @@ y = y.reshape((y.shape[0], 1))
 
 ##  Visualisation du dataset
 
-La base de données ci‑dessous a été générée avec la bibliothèque **scikit‑learn**.  
+La base de données ci‑dessous a été générée avec la bibliothèque scikit‑learn.  
 Elle est entièrement artificielle et ne représente aucun phénomène physique réel ; elle sert uniquement de support pour l’entraînement du neurone.
 
-Un **point rouge** a été ajouté manuellement :  
-il ne fait pas partie de la base d’entraînement et sert d’exemple pour évaluer la capacité du modèle à prédire correctement un échantillon **jamais vu auparavant**.
+Un point rouge a été ajouté manuellement :  
+il ne fait pas partie de la base d’entraînement et sert d’exemple pour évaluer la capacité du modèle à prédire correctement un échantillon jamais vu auparavant.
 
 
 
@@ -71,9 +71,15 @@ print("La plante est toxique à " + str(y_pred * 100) + "%")
 
 <img width="700" height="698" alt="screen_log_loss" src="https://github.com/user-attachments/assets/455e98db-dd68-456e-aaa7-49aa2fde0b6f" />
 
-Voici l’exécution de la fonction finale `Neuron_network`.  
-Elle affiche l’évolution de la fonction coût, qui diminue progressivement jusqu’à tendre vers 0, montrant que le neurone apprend correctement.  
-La seconde courbe correspond à l’accuracy, qui augmente jusqu’à atteindre 1, signe que le modèle généralise bien et ne montre pas d’overfitting.
+##  Visualisation de l’apprentissage
+
+L’exécution de la fonction `Neuron_network` permet d’observer l’évolution de l’apprentissage du modèle.
+
+- La courbe de la fonction coût (log loss) diminue progressivement jusqu’à tendre vers 0, ce qui indique que le neurone apprend correctement au fil des itérations.  
+- La courbe d’accuracy augmente quant à elle jusqu’à atteindre 1, montrant que le modèle généralise bien et ne présente pas de signe d’overfitting.
+
+Ces deux courbes offrent une vision claire et intuitive de la convergence du modèle.
+
 
 
 
