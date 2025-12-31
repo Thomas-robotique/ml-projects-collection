@@ -4,6 +4,8 @@
 Dans cette première étape, j’implémente un neurone unique en Python, en utilisant uniquement l’algorithme de descente de gradient.  
 L’objectif est de comprendre en profondeur les mécanismes fondamentaux du Deep Learning, sans aucun framework.
 
+
+
 ---
 
 ##  Concepts abordés
@@ -24,6 +26,21 @@ Ce projet permet d’explorer les bases essentielles du fonctionnement d’un ne
 
 - Comportement d’apprentissage d’un neurone 
   Observation de la convergence et de la capacité de généralisation.
+
+
+## 📁 Organisation des fichiers
+
+###  `Neuron_Network.md`
+Contient :
+- le code complet du neurone
+- l’implémentation de la descente de gradient
+- les fonctions d’entraînement et de prédiction
+
+###  `Exécution.md`
+Contient :
+- les images de la base de données générée
+- les graphes de l’apprentissage (log loss, accuracy)
+- les visualisations permettant de suivre l’évolution du modèle
 
 ---
 
