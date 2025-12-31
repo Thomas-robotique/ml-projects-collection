@@ -76,7 +76,7 @@ print("La plante est toxique à " + str(y_pred * 100) + "%")
 L’exécution de la fonction `Neuron_network` permet d’observer l’évolution de l’apprentissage du modèle.
 
 - La courbe de la fonction coût (log loss) diminue progressivement jusqu’à tendre vers 0, ce qui indique que le neurone apprend correctement au fil des itérations.  
-- La courbe d’accuracy augmente quant à elle jusqu’à atteindre 1, montrant que le modèle généralise bien et ne présente pas de signe d’overfitting.
+- La courbe d’accuracy augmente jusqu’à atteindre 1, ce qui montre que le modèle classe correctement les points. 
 
 Ces deux courbes offrent une vision claire et intuitive de la convergence du modèle.
 
