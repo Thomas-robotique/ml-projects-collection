@@ -42,3 +42,8 @@ y_pred = model(X, w, b)
 print(accuracy_score(y, y_pred))
 
 ```
+
+<img width="981" height="698" alt="screen_log_loss" src="https://github.com/user-attachments/assets/455e98db-dd68-456e-aaa7-49aa2fde0b6f" />
+
+
+
