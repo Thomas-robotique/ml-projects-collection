@@ -12,14 +12,14 @@ y = y.reshape((y.shape[0], 1))
 
 <img src="https://github.com/user-attachments/assets/6f226d4a-a99b-41a5-89d8-6853e8283eea" width="500" alt="screen_de_la_database">
 
-Voici la base de données générée avec la bibliothèque sklearn.  
+##  Visualisation du dataset
+
+La base de données ci‑dessous a été générée avec la bibliothèque **scikit‑learn**.  
 Elle est entièrement artificielle et ne représente aucun phénomène physique réel ; elle sert uniquement de support pour l’entraînement du neurone.
 
+Un **point rouge** a été ajouté manuellement :  
+il ne fait pas partie de la base d’entraînement et sert d’exemple pour évaluer la capacité du modèle à prédire correctement un échantillon **jamais vu auparavant**.
 
-Le point rouge correspond à un échantillon qui ne fait pas partie de la base de données d’entraînement.  
-
-
-Il est utilisé pour tester la capacité du neurone à prédire correctement un point jamais vu auparavant.
 
 
 
