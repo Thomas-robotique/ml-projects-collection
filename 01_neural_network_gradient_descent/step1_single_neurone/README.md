@@ -1,13 +1,31 @@
-# Step 01 — Single Neuron
+#  Step 01 — Single Neuron
 
-Dans ce projet, j’ai implémenté un neurone en Python en utilisant l’algorithme de descente de gradient.  
-Je repars de zéro, sans framework, afin de comprendre le fonctionnement profond du Deep Learning.
+##  Objectif du projet  
+Dans cette première étape, j’implémente un **neurone unique** en Python, en utilisant uniquement l’algorithme de **descente de gradient**.  
+L’objectif est de comprendre en profondeur les mécanismes fondamentaux du Deep Learning, **sans aucun framework**.
 
-Ce projet permet d’explorer les éléments fondamentaux suivants :  
-- la propagation avant (forward propagation)  
-- le calcul du gradient  
-- la rétropropagation (backpropagation)  
-- la mise à jour des poids par descente de gradient  
-- la logique interne d’un neurone et son comportement d’apprentissage
+---
 
-Dans l’étape 2, je développerai un réseau de neurones complet en suivant le même principe.
+##  Concepts abordés
+
+Ce projet permet d’explorer les bases essentielles du fonctionnement d’un neurone artificiel :
+
+- Propagation avant (forward propagation)
+  Calcul de la sortie du neurone à partir des entrées et des poids.
+
+- Calcul du gradient 
+  Détermination de la direction dans laquelle ajuster les paramètres.
+
+- Rétropropagation (backpropagation)
+  Mise à jour des poids en fonction de l’erreur.
+
+- Descente de gradient
+  Optimisation itérative pour réduire la fonction coût.
+
+- Comportement d’apprentissage d’un neurone 
+  Observation de la convergence et de la capacité de généralisation.
+
+---
+
+##  Étape suivante  
+Dans l’étape 2, je passerai à la construction d’un réseau de neurones complet, en réutilisant les fondations posées ici.
