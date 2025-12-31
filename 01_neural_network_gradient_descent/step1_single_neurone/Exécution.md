@@ -61,6 +61,7 @@ y_pred = model(Y, w, b)
 
 print("La plante est toxique à " + str(y_pred * 100) + "%")
 
+# Exécution avec ce point : La plante est toxique à [3.36220185]%
 
 ```
 
