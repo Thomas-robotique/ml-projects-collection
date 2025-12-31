@@ -1,6 +1,6 @@
 # ML Projects Collection
 
-Ce dépôt regroupe l’ensemble de mes projets, expérimentations et implémentations liés au Deep Learning.  
+Ce dépôt regroupe l’ensemble de mes projets, liés au Deep Learning.  
 Il a pour objectif de centraliser mon travail et de suivre ma progression dans ce domaine.
 
 ---
