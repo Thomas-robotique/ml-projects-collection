@@ -1,8 +1,8 @@
 #  Step 01 — Single Neuron
 
 ##  Objectif du projet  
-Dans cette première étape, j’implémente un **neurone unique** en Python, en utilisant uniquement l’algorithme de **descente de gradient**.  
-L’objectif est de comprendre en profondeur les mécanismes fondamentaux du Deep Learning, **sans aucun framework**.
+Dans cette première étape, j’implémente un neurone unique en Python, en utilisant uniquement l’algorithme de descente de gradient.  
+L’objectif est de comprendre en profondeur les mécanismes fondamentaux du Deep Learning, sans aucun framework.
 
 ---
 
