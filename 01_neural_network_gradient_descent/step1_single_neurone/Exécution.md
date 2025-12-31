@@ -9,3 +9,34 @@ y = y.reshape((y.shape[0], 1))
 ```
 
 <img src="https://github.com/user-attachments/assets/6f226d4a-a99b-41a5-89d8-6853e8283eea" width="500" alt="screen_de_la_database">
+
+Voici la base do donnée générée grâce à la bibliothèque sklearn, cette base de donnée est complêtement arbitraire et ne represente rien de phyique, elle nous sert juste pour l'entrainement du neurone.
+
+
+
+
+```python
+def Neuron_network(X, y, a=0.1, n_inter=200):
+    w, b = Initialisation(X)
+    loss = []
+    for i in range(n_inter):
+        A = model(X, w, b)
+        loss.append(Logg_loss(A, y))
+        dw, db = gradiant(y, X, A)
+        w, b = uptade(w, b, dw, db, a)
+
+    # Affichage de la fonction log loss
+    plt.figure(figsize=(8, 5))
+    plt.plot(loss, color='blue', linewidth=2)
+    plt.title("Évolution du Log Loss pendant l'apprentissage", fontsize=14)
+    plt.xlabel("Itérations", fontsize=12)
+    plt.ylabel("Log Loss", fontsize=12)
+    plt.grid(True)
+    plt.show()
+    return w, b
+
+w, b = Neuron_network(X, y)
+y_pred = model(X, w, b)
+print(accuracy_score(y, y_pred))
+
+```
