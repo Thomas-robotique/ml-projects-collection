@@ -28,7 +28,7 @@ Ce projet permet d’explorer les bases essentielles du fonctionnement d’un ne
   Observation de la convergence et de la capacité de généralisation.
 
 
-## 📁 Organisation des fichiers
+##  Organisation des fichiers
 
 ###  `Neuron_Network.md`
 Contient :
