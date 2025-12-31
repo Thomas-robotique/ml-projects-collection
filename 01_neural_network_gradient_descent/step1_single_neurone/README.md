@@ -30,13 +30,13 @@ Ce projet permet d’explorer les bases essentielles du fonctionnement d’un ne
 
 ##  Organisation des fichiers
 
-###  `Neuron_Network.md`
+####  `Neuron_Network.md`
 Contient :
 - le code complet du neurone
 - l’implémentation de la descente de gradient
 - les fonctions d’entraînement et de prédiction
 
-###  `Exécution.md`
+####  `Exécution.md`
 Contient :
 - les images de la base de données générée
 - les graphes de l’apprentissage (log loss, accuracy)
