@@ -41,3 +41,6 @@ tester d’autres architectures, utiliser des datasets plus complexes, et compar
 
 Cette étape 2 pose les bases d’un vrai réseau de neurones, et prépare la suite du projet.
 
+## Structure du projet
+
+
