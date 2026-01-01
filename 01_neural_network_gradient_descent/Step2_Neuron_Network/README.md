@@ -15,16 +15,25 @@ Dans cette étape, j’ai ajouté plusieurs éléments importants :
 
 L’idée est de comprendre comment un réseau apprend, comment l’erreur circule en arrière, et comment les paramètres s’ajustent petit à petit.
 
-## Visualisations
-Comme dans l’étape 1, j’utilise un dataset artificiel généré avec scikit‑learn.  
-Il ne représente rien de physique : il sert uniquement à tester et visualiser l’apprentissage.
+##  Organisation des fichiers
+Comme pour l'étape 1, l'organisation des fichiers est assez similaire.
 
-J’affiche ensuite :
-- la fonction coût au fil des itérations  
-- l’accuracy du modèle  
-- la prédiction sur un point jamais vu auparavant  
+####  `Neuron_Network2.md`
+Contient :
+- le code complet du réseau de neurone
+- l’implémentation de la descente de gradient
+- les fonctions d’entraînement et de prédiction
 
-Ces graphiques permettent de voir si le réseau apprend correctement et s’il généralise bien.
+####  `Exécution2.md`
+Contient :
+- les images de la base de données générée
+- les graphes de l’apprentissage (log loss, accuracy)
+- les visualisations permettant de suivre l’évolution du modèle
+  #### Vidéo.md
+  Pour cette deuxième étape, j’ai trouvé pertinent de visualiser l’apprentissage du réseau de neurones sur la base de données.  
+J’ai donc enregistré quelques exemples, disponibles dans ce dossier.
+
+---
 
 ## Suite du projet
 La prochaine étape sera d’aller plus loin :  
