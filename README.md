@@ -18,4 +18,12 @@ Une fois ces bases maîtrisées, je développerai également des projets utilisa
 
 ## 📂 Structure du dépôt
 
-Chaque dossier correspond à un projet indépendant :
+Structure du dépôt
+├── 01_neural_network_gradient_descent/
+│   ├── Step2_Neuron_Network
+│   ├── Step1_Single_Neuron
+│       ├──Exécution.md
+│       ├──Neuron_Network.md
+│       └── README.md
+└── README.md
+
