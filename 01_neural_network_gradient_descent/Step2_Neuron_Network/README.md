@@ -30,7 +30,7 @@ Contient :
 - les graphes de l’apprentissage (log loss, accuracy)
 - les visualisations permettant de suivre l’évolution du modèle
 #### `Vidéo.md`
-  Pour cette deuxième étape, j’ai trouvé pertinent de visualiser l’apprentissage du réseau de neurones sur la base de données.  
+ Pour cette deuxième étape, j’ai trouvé pertinent de visualiser l’apprentissage du réseau de neurones sur la base de données.  
 J’ai donc enregistré quelques exemples, disponibles dans ce dossier.
 
 ---
