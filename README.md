@@ -26,11 +26,11 @@ Structure du dépôt
 
 │   ├── Step1_Single_Neuron
 
-│       ├──Exécution.md
+│             ├──Exécution.md
 
-│       ├──Neuron_Network.md
+│             ├──Neuron_Network.md
 
-│       └── README.md
+│             └── README.md
 
 └── README.md
 
