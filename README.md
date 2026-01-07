@@ -1,21 +1,36 @@
-# ML Projects Collection
 
-Ce dépôt regroupe l’ensemble de mes projets, liés au Deep Learning.  
-Il a pour objectif de centraliser mon travail et de suivre ma progression dans ce domaine.
+> D’autres projets seront ajoutés au fur et à mesure de ma progression.
 
 ---
 
-## Outils utilisés
+##  Projets actuels
 
-J’utilise principalement Python pour tous mes projets.  
+### **1. Neural Network from Scratch(Gradient Descent)**
+- Implémentation d’un réseau de neurones simple **sans TensorFlow / PyTorch**  
+- Propagation avant, rétropropagation, descente de gradient  
+- Visualisation de la loss et de la convergence  
+- Objectif : comprendre les mécanismes internes d’un MLP
 
-Certains d’entre eux sont développés en repartant de zéro, sans utiliser de frameworks — très efficaces mais qui masquent le fonctionnement réel d’un réseau de neurones — afin d’en comprendre en profondeur les mécanismes.
-
-
-Une fois ces bases maîtrisées, je développerai également des projets utilisant des frameworks modernes comme PyTorch, afin de passer à des modèles plus avancés et à des applications réelles.
+📄 *Voir le README du projet pour plus de détails.*
 
 ---
 
+## 🛠️Technologies utilisées
+- **Python 3**
+- NumPy  
+- Matplotlib  
+- Jupyter Notebook  
+- (À venir) PyTorch / TensorFlow  
+- (À venir) Implémentations embarquées (C++ / microcontrôleurs)
 
+---
 
+##  Projets à venir
+- Implémentation d’un **perceptron multicouche complet**  
+- Réseaux de neurones convolutionnels (CNN)  
+- Classification d’images simples  
+- Intégration IA + **robotique** (contrôle, vision, capteurs)
 
+---
+
+$
