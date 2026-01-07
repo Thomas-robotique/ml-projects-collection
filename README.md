@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️Technologies utilisées
+## Technologies utilisées
 - **Python 3**
 - NumPy  
 - Matplotlib  
