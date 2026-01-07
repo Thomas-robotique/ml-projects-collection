@@ -52,7 +52,7 @@ ml-projects-collection/
 ---
 
 ## Technologies utilisées
--Python 3
+ -Python 3
 - NumPy  
 - Matplotlib  
 - Jupyter Notebook  
