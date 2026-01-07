@@ -1,4 +1,4 @@
-```python
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
@@ -92,4 +92,4 @@ y_pred = model(Y, w, b)
 
 print("La plante  à " + str(y_pred * 100) + "%"+"de chance d'être toxique")
     
-```
+
