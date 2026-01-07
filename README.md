@@ -2,17 +2,15 @@
 
 
 # ML Projects Collection  
-Ce dépôt regroupe l’ensemble de mes projets liés au **Machine Learning** et au **Deep Learning**, développés dans une démarche d’apprentissage progressif.  
-Mon objectif est de comprendre en profondeur le fonctionnement des modèles, en particulier les réseaux de neurones, en les **recréant from scratch** avant d’utiliser des frameworks modernes.
+Ce dépôt regroupe l’ensemble de mes projets liés au Machine Learning et au Deep Learning, développés dans une démarche d’apprentissage progressif.  
+Mon objectif est de comprendre en profondeur le fonctionnement des modèles, en particulier les réseaux de neurones, en les recréant from scratch avant d’utiliser des frameworks modernes.
 
 ---
 
 ##  Objectifs du dépôt
-- Approfondir les bases mathématiques et algorithmiques du Machine Learning  
-- Implémenter des modèles simples **sans frameworks** pour comprendre leur logique interne  
-- Explorer des architectures plus avancées (MLP, CNN, etc.)  
-- Développer de bonnes pratiques : structuration du code, visualisation, reproductibilité  
-- Préparer des projets plus ambitieux en **IA embarquée** et **robotique**
+- Approfondir les bases mathématiques et algorithmiques du DeepLearning 
+- Implémenter des modèles simples sans frameworks pour comprendre leur logique interne  
+- Préparer des projets plus ambitieux en IA embarquée et robotique
 
 ---
 
@@ -74,4 +72,4 @@ Mon objectif est de comprendre en profondeur le fonctionnement des modèles, en 
 
 ---
 
-$
+
