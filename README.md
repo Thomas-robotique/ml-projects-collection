@@ -16,10 +16,23 @@ Mon objectif est de comprendre en profondeur le fonctionnement des modèles, en 
 
 ---
 
+
+
 ## Structure du dépôt
-Chaque dossier correspond à un projet indépendant :
 
+├── 01_neural_network_gradient_descent/
 
+│   ├── Step2_Neuron_Network
+
+│   ├── Step1_Single_Neuron
+
+│             ├──Exécution.md
+
+│             ├──Neuron_Network.md
+
+│             └── README.md
+
+└── README.md
 
 
 
