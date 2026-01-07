@@ -30,7 +30,7 @@ Ce projet permet d’explorer les bases essentielles du fonctionnement d’un ne
 
 ##  Organisation des fichiers
 
-####  `Neuron_Network.md`
+####  `Neuron_Network.py`
 Contient :
 - le code complet du neurone
 - l’implémentation de la descente de gradient
