@@ -63,9 +63,9 @@ plt.scatter(Y[0], Y[1], color='r')
 w, b = Neuron_network(X, y)
 y_pred = model(Y, w, b)
 
-print("La plante est toxique à " + str(y_pred * 100) + "%")
+print(" Le point à " + str(y_pred * 100) + "% de chance d'appartenir à la classe jaune")
 
-# Exécution avec ce point : La plante est toxique à [3.36220185]%
+# Exécution avec ce point : La plante à [3.36220185]% d'appartenir à la classe jaune.
 
 ```
 
