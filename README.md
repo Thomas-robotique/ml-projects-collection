@@ -18,18 +18,15 @@ Mon objectif est de comprendre en profondeur le fonctionnement des modèles, en 
 
 ## Structure du dépôt
 
+
+```text
+ml-projects-collection/
 ├── 01_neural_network_gradient_descent/
-
-│   ├── Step2_Neuron_Network
-
-│   ├── Step1_Single_Neuron
-
-│             ├──Exécution.md
-
-│             ├──Neuron_Network.md
-
-│             └── README.md
-
+│   ├── Step1_Single_Neuron/
+│   │   ├── Exécution.md
+│   │   ├── Neuron_Network.md
+│   │   └── README.md
+│   └── Step2_Neuron_Network/
 └── README.md
 
 
@@ -55,7 +52,7 @@ Mon objectif est de comprendre en profondeur le fonctionnement des modèles, en 
 ---
 
 ## Technologies utilisées
-- **Python 3**
+-Python 3
 - NumPy  
 - Matplotlib  
 - Jupyter Notebook  
@@ -65,10 +62,9 @@ Mon objectif est de comprendre en profondeur le fonctionnement des modèles, en 
 ---
 
 ##  Projets à venir
-- Implémentation d’un **perceptron multicouche complet**  
-- Réseaux de neurones convolutionnels (CNN)  
+- Implémentation d’un perceptron multicouche complet  
 - Classification d’images simples  
-- Intégration IA + **robotique** (contrôle, vision, capteurs)
+- Intégration IA + robotique (contrôle, vision, capteurs)
 
 ---
 
