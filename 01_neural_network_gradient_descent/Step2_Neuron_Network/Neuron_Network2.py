@@ -6,22 +6,7 @@ from tqdm import tqdm
 from matplotlib.animation import FuncAnimation
 
 
-# Création de la base de données d'entraînement fictive
 
-'''
-# Génère un jeu de données artificiel composé de 200 points en 2D, 
-# # répartis en 2 groupes, avec une graine aléatoire fixée pour 
-# obtenir toujours les mêmes données.
-X, y = make_blobs(n_samples=200, n_features=2, centers=2, random_state=0) 
-y = y.reshape((y.shape[0], 1))
-
-
-
-
-plt.scatter(X[:,0], X[:, 1], c=y, cmap='summer')
-X = X.T
-y = y.reshape(1, -1)
-'''
 def make_two_concentric_circles(n_points=600, noise=0.05, r1=2.0, r2=4.0):
 
 
