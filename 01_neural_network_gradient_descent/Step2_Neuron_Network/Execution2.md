@@ -110,7 +110,7 @@ La courbe ci‑dessous montre que la LogLoss diminue progressivement pour tendre
 
 ## Comparaison avec une architecture réduite (10 neurones)
 
-Pour évaluer l’impact de la capacité du modèle, le même réseau a été entraîné avec seulement **10 neurones** dans la couche cachée. La convergence est plus lente et l’erreur finale plus élevée, ce qui illustre clairement les limites d’un modèle moins expressif.
+Pour évaluer l’impact de la capacité du modèle, le même réseau a été entraîné avec seulement 10 neurones dans la couche cachée. La convergence est plus lente et l’erreur finale plus élevée, ce qui illustre clairement les limites d’un modèle moins expressif.
 
 <img width="993" height="713" alt="screen_LogLoss_10_neurones" src="https://github.com/user-attachments/assets/5af6647a-975b-4b2a-9a5c-2511155192db" />
 
