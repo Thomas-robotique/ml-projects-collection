@@ -94,7 +94,8 @@ def Neuron_network(X, y, a=0.1, n_inter=3000):
 
     plt.show()
     return parametre, history
-    ```
+
+```
 
 ## Analyse de l’apprentissage du réseau de neurones
 Cette section présente l’entraînement d’un réseau de neurones à trois couches :
