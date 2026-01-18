@@ -18,7 +18,7 @@ L’idée est de comprendre comment un réseau apprend, comment l’erreur circu
 ##  Organisation des fichiers
 Comme pour l'étape 1, l'organisation des fichiers est assez similaire.
 
-####  `Neuron_Network2.md`
+####  `Neuron_Network2.py`
 Contient :
 - le code complet du réseau de neurone
 - l’implémentation de la descente de gradient
