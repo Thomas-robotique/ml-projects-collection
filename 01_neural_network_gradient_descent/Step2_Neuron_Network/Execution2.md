@@ -43,7 +43,7 @@ plt.show()
 ```
 
 
-Cette partie du code permet de générer deux classe de points en forme de spirale.
+Cette partie du code permet de générer deux classes de points en forme de spirale.
 <img width="796" height="677" alt="Screen_dataset_spires" src="https://github.com/user-attachments/assets/6014cc6b-7a76-4422-a265-084650d45478" />
 
 
