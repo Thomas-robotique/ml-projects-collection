@@ -108,7 +108,11 @@ Le suivi de l’apprentissage est assuré via la LogLoss et l’accuracy.
 La courbe ci‑dessous montre que la LogLoss diminue progressivement pour tendre vers 0, indiquant que le modèle apprend efficacement la fonction cible. En parallèle, l’accuracy converge vers 1, confirmant la bonne qualité de l’apprentissage.
 <img width="998" height="707" alt="screen_LogLoss_300_neurones" src="https://github.com/user-attachments/assets/afb7962e-7d82-45db-bcf0-e071f31f0884" />
 
+
+
 ## Comparaison avec une architecture réduite (10 neurones)
+
+
 
 Pour évaluer l’impact de la capacité du modèle, le même réseau a été entraîné avec seulement 10 neurones dans la couche cachée. La convergence est plus lente et l’erreur finale plus élevée, ce qui illustre clairement les limites d’un modèle moins expressif.
 
