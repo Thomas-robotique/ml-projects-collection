@@ -121,6 +121,14 @@ Pour évaluer l’impact de la capacité du modèle, le même réseau a été en
 
 
 
+https://github.com/user-attachments/assets/f50735ad-9aef-4927-a58a-3ba522e2daa1
+
+
+
+
+
+
+
 
 
 
