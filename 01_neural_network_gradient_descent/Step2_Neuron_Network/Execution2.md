@@ -119,6 +119,8 @@ Pour évaluer l’impact de la capacité du modèle, le même réseau a été en
 <img width="993" height="713" alt="screen_LogLoss_10_neurones" src="https://github.com/user-attachments/assets/5af6647a-975b-4b2a-9a5c-2511155192db" />
 
 
+## Visualisation de l'apprentissage
+Voici une animation qui permet d’observer le réseau de neurones en cours d’apprentissage. On constate qu’il parvient à séparer les deux classes de points.
 
 
 https://github.com/user-attachments/assets/f50735ad-9aef-4927-a58a-3ba522e2daa1
