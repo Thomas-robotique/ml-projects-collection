@@ -4,7 +4,7 @@ L’objectif de cette troisième étape est d’entraîner un réseau de neurone
 pour distinguer automatiquement une image de chat d’une image de chien.
 Un dataset d’images est importé, prétraité puis utilisé pour l’apprentissage.
 
-NOUVEAUTÉS ET AMÉLIORATIONS
+## NOUVEAUTÉS ET AMÉLIORATIONS
 
 1. Nouvelle organisation du projet
 ----------------------------------
@@ -25,7 +25,7 @@ Le code est désormais structuré en trois fichiers :
 Cette séparation rend le projet plus lisible, modulaire et maintenable.
 
 
-
+--------------------------------
 2. Sauvegarde des poids et biais
 --------------------------------
 Après chaque entraînement, les poids (W) et biais (b) sont sauvegardés.
