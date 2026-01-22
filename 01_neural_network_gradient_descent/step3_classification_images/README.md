@@ -16,7 +16,7 @@ Le code est désormais structuré en trois fichiers :
 
 - `load_cat_and_dog.py`
     Gère le chargement, la mise à l’échelle et la normalisation
-    des images du dataset (chats / chiens).
+    des images du dataset (chats / chiens) et des images à prédire.
 
 - `cat_and_dog.py`
     Permet d’entraîner le modèle ou d’effectuer des prédictions
