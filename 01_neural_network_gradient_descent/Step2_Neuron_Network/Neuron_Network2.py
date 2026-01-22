@@ -234,10 +234,10 @@ def plot_decision_boundary(ax, params):
     w1, b1 = params["w1"], params["b1"]
     w2, b2 = params["w2"], params["b2"]
 
-    x0 = np.linspace(X[0,:].min()-1, X[0,:].max()+1, 200)
+    x0 = np.linspace(X[0,:].min()-1, X[0,:].max()+1, 200) # Créer une marge pour améliorer la visibilité du graphique
     x1 = np.linspace(X[1,:].min()-1, X[1,:].max()+1, 200)
     xx, yy = np.meshgrid(x0, x1)
-    grid = np.vstack((xx.ravel(), yy.ravel()))
+    grid = np.vstack((xx.ravel(), yy.ravel()))   #ravel convertit en tableau 1D
 
     z1 = w1.dot(grid) + b1
     A1 = 1/(1+np.exp(-z1))
@@ -245,7 +245,7 @@ def plot_decision_boundary(ax, params):
     A2 = 1/(1+np.exp(-z2))
 
     Z = A2.reshape(xx.shape)
-    ax.contourf(xx, yy, Z, levels=[0,0.5,1], alpha=0.3, cmap="RdYlGn")
+    ax.contourf(xx, yy, Z, levels=[0,0.5,1], alpha=0.3, cmap="RdYlGn") # alpha = transparence 
 
 ## fig → la figure complète, c’est-à-dire la “page” ou la “fenêtre” où tout sera affiché.
 ## ax → l’axe, c’est-à-dire la zone de dessin dans la figure. C’est là que tu traces les courbes, les points, les contours.
