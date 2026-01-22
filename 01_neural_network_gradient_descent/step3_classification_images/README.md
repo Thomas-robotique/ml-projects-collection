@@ -10,15 +10,15 @@ Un dataset d’images est importé, prétraité puis utilisé pour l’apprentis
 ----------------------------------
 Le code est désormais structuré en trois fichiers :
 
-- NeuralNetwork.py
+- `NeuralNetwork.py`
     Contient l’implémentation complète du réseau de neurones
     (architecture, propagation avant, rétropropagation).
 
-- load_cat_and_dog.py
+- `load_cat_and_dog.py`
     Gère le chargement, la mise à l’échelle et la normalisation
     des images du dataset (chats / chiens).
 
-- cat_and_dog.py
+- `cat_and_dog.py`
     Permet d’entraîner le modèle ou d’effectuer des prédictions
     à partir de paramètres sauvegardés.
 
