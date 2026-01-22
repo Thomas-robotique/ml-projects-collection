@@ -31,12 +31,11 @@ def initialize_parameters(X,NC0, NC1, NC2):                 #NC0 = Nombre d'entr
     return parametre
 
 # Fonction modèle : calcule la prédiction grâce à la fonction sigmoïde
-# et prédit la position du point sur le graphe
 def model(X, parametre):
-    w1=parametre["w1"] *0.01
-    b1=parametre["b1"]*0.01
-    w2=parametre["w2"]*0.01
-    b2=parametre["b2"]*0.01
+    w1=parametre["w1"]
+    b1=parametre["b1"]
+    w2=parametre["w2"]
+    b2=parametre["b2"]
 
      
 
