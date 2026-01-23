@@ -143,16 +143,20 @@ def update_parameters(a,gradiant,parametre ):
 
 
 # Fonction de prédiction : renvoie True (1) si la probabilité >= 0.5, sinon False (0)
-def predict(Y, parametre):
-    activation = model(Y, parametre)
-    A2= activation["A2"]
-    if(A2>0.5):
-       print("c'est une chien", A2)
-       print(A2)
-    else :
-       print("c'est un chat", A2)
-
-    return A2>=0.5
+def predict(Y, parametre, predict): # la fonction prend un bool en paramètre pour définir le mode ( prédiction ou entrainement) 
+    if(predict):
+           
+       activation = model(Y, parametre)
+       A2= activation["A2"]
+       print("c'est un chien à",A2*100, "%")
+       return 
+    
+    else:
+      activation = model(Y, parametre)
+      A2= activation["A2"]
+      print("prediction",A2)
+      return A2>=0.5 
+        
 
 # Fonction finale qui combine toutes les fonctions précédentes dans une boucle avec un nombre d’itérations fixé. Plus ce nombre est grand, plus le modèle s’entraîne longtemps.
 def Neuron_network(X, y, a=0.01, n_inter=6000):
