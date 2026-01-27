@@ -25,7 +25,7 @@ Le code est désormais structuré en trois fichiers :
 - `dataset2`
   Contient toutes les photos pour l'entraînement du réseau de neurones
 
-  -'dataset_tensorflow.py'
+  - `dataset_tensorflow.py `
   Contient les fonctions permettant de trier les photos, de supprimer celles qui sont inutiles, puis de récupérer les images restantes pour l’entraînement.
 
 Cette séparation rend le projet plus lisible et modulaire 
