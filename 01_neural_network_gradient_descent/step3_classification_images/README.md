@@ -21,7 +21,7 @@ Le code est désormais structuré en trois fichiers :
 - `train_cat_and_dog.py`
     Permet d’entraîner le modèle avec le dataset d'images
 
-  - `test_cat_and_dog.py`
+- `test_cat_and_dog.py`
      Permet de réaliser des prédictions sur une images
 
   
