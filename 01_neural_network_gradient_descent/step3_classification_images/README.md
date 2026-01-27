@@ -2,7 +2,7 @@
 
 L’objectif de cette troisième étape est d’entraîner un réseau de neurones à trois couches
 pour distinguer automatiquement une image de chat d’une image de chien.
-Un dataset d’images est importé, prétraité puis utilisé pour l’apprentissage.
+Le dataset d'images permettant l'entraînement a été importé avec TensorFlow.
 
 ## NOUVEAUTÉS ET AMÉLIORATIONS
 
@@ -21,8 +21,14 @@ Le code est désormais structuré en trois fichiers :
 - `cat_and_dog.py`
     Permet d’entraîner le modèle ou d’effectuer des prédictions
     à partir de paramètres sauvegardés.
+  
+- `dataset2`
+  Contient toutes les photos pour l'entraînement du réseau de neurones
 
-Cette séparation rend le projet plus lisible, modulaire et maintenable.
+  -'dataset_tensorflow.py'
+  Contient les fonctions permettant de trier les photos, de supprimer celles qui sont inutiles, puis de récupérer les images restantes pour l’entraînement.
+
+Cette séparation rend le projet plus lisible et modulaire 
 
 
 ### 2. Sauvegarde des poids et biais
