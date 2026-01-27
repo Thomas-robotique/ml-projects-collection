@@ -18,9 +18,12 @@ Le code est désormais structuré en trois fichiers :
     Gère le chargement, la mise à l’échelle et la normalisation
     des images du dataset (chats / chiens) et des images à prédire.
 
-- `cat_and_dog.py`
-    Permet d’entraîner le modèle ou d’effectuer des prédictions
-    à partir de paramètres sauvegardés.
+- `train_cat_and_dog.py`
+    Permet d’entraîner le modèle avec le dataset d'images
+
+  - `test_cat_and_dog.py`
+     Permet de réaliser des prédictions sur une images
+
   
 - `dataset2`
   Contient toutes les photos pour l'entraînement du réseau de neurones
