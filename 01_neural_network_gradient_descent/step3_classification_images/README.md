@@ -4,7 +4,7 @@ L’objectif de cette troisième étape est d’entraîner un réseau de neurone
 pour distinguer automatiquement une image de chat d’une image de chien.
 Le dataset d'images permettant l'entraînement a été importé avec TensorFlow.
 
-## NOUVEAUTÉS ET AMÉLIORATIONS
+## Nouveautés et améliorations
 
 ### 1. Nouvelle organisation du projet
 ----------------------------------
@@ -45,7 +45,7 @@ Avantages :
 - reproductibilité améliorée
 --------------------------------
 
-## A VENIR
+## A venir
 
 La suite du projet consistera à augmenter le nombre de couches du réseau de neurones afin d'en améliorer l'efficacité de celui-ci.
 
