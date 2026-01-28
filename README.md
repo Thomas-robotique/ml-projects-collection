@@ -62,7 +62,7 @@ ml-projects-collection/
 ---
 
 ## Technologies utilisées
- -Python 3
+ -Python3.10
 - NumPy  
 - Matplotlib    
 - (À venir) PyTorch
