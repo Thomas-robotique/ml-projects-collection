@@ -37,7 +37,7 @@ J’ai donc enregistré quelques exemples, disponibles dans ce dossier.
 
 ## Suite du projet
 La prochaine étape sera d’aller plus loin :  
-tester d’autres architectures, utiliser des datasets plus complexes, et comparer les résultats avec un framework comme PyTorch ou TensorFlow.
+tester d’autres architectures, utiliser des datasets plus complexes notamment pour la classification d'images. Mais aussi d'augmenter le nombre de couches du réseau de neurones
 
 Cette étape 2 pose les bases d’un vrai réseau de neurones, et prépare la suite du projet.
 
