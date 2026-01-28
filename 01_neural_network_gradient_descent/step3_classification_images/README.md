@@ -43,3 +43,9 @@ Avantages :
 - plus besoin de réentraîner le réseau à chaque exécution
 - prédictions instantanées
 - reproductibilité améliorée
+--------------------------------
+
+## A VENIR
+
+La suite du projet consistera à augmenter le nombre de couches du réseau de neurones afin d'en améliorer l'efficacité de celui-ci.
+
