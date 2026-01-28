@@ -1,7 +1,7 @@
 # Step 02 — Réseau de neurones
 
 Dans cette deuxième étape, je passe d’un neurone unique à un réseau de neurones, construit entièrement à la main en Python.  
-L’objectif est de comprendre comment fonctionne un réseau avec plusieurs couches, comment les informations circulent à travers lui, et comment les poids s’ajustent pendant l’apprentissage.
+L’objectif est de comprendre comment fonctionne un réseau avec une couche cachée, comment les informations circulent à travers lui, et comment les poids s’ajustent pendant l’apprentissage.
 
 
 ## Ce que j’ai implémenté
