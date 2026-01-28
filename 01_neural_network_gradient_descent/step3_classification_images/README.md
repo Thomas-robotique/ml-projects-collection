@@ -8,7 +8,7 @@ Le dataset d'images permettant l'entraînement a été importé avec TensorFlow.
 
 ### 1. Nouvelle organisation du projet
 ----------------------------------
-Le code est désormais structuré en trois fichiers :
+Le code est désormais structuré en six fichiers :
 
 - `NeuralNetwork.py`
     Contient l’implémentation complète du réseau de neurones
