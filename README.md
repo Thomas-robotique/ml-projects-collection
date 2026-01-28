@@ -30,7 +30,7 @@ ml-projects-collection/
 │   │   ├── Execution2.md
 │   │   ├── Neuron_Network2.py
 │   │   └── README.md
-│   └── Step3_classification_images
+│   └── Step3_classification_images/
 │       ├── Neuron_Network_3.py
 │       ├── Dataset_tensorflow.py
 │       ├── load_cat_and_dog.py
