@@ -52,7 +52,7 @@ ml-projects-collection/
 ##  Projets actuels
 
 ### **1. Neural Network from Scratch(Gradient Descent)**
-- Implémentation d’un réseau de neurones simple sans TensorFlow / PyTorch
+- Implémentation d’un réseau de neurones simple PyTorch
 - Propagation avant, rétropropagation, descente de gradient  
 - Visualisation de la loss et de la convergence  
 - Objectif : comprendre les mécanismes internes d'un réseau de neurones
