@@ -64,10 +64,9 @@ ml-projects-collection/
 ## Technologies utilisées
  -Python 3
 - NumPy  
-- Matplotlib  
-- Jupyter Notebook  
-- (À venir) PyTorch / TensorFlow  
-- (À venir) Implémentations embarquées (C++ / microcontrôleurs)
+- Matplotlib    
+- (À venir) PyTorch
+- (À venir) Implémentations embarquées 
 
 ---
 
