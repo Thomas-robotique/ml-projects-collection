@@ -1,6 +1,6 @@
 # Step 03 — Classification d’images avec un réseau de neurones
 
-L’objectif de cette troisième étape est d’entraîner un réseau de neurones à trois couches
+L’objectif de cette troisième étape est d’entraîner un réseau de neurones à 2 couches
 pour distinguer automatiquement une image de chat d’une image de chien.
 Le dataset d'images permettant l'entraînement a été importé avec TensorFlow.
 
