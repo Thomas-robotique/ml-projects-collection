@@ -24,16 +24,7 @@ def initialize_parameters(X, dimensions):
             parametre["b"+str(i)] = np.random.randn(dimensions[i],1)
            # print(parametre)
 
-
-
-         
-
-         
-    
-
-    
-
-       return parametre
+    return parametre
 
 # Fonction modèle : calcule la prédiction grâce à la fonction sigmoïde
 # et prédit la position du point sur le graphe
