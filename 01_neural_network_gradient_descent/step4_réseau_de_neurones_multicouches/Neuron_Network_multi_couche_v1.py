@@ -2,9 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 from tqdm import tqdm
-
 from utilities import *
-
 import pickle
 
 
@@ -23,15 +21,6 @@ def initialize_parameters(X, dimensions):
             
             parametre["b"+str(i)] = np.random.randn(dimensions[i],1)
            # print(parametre)
-
-
-
-         
-
-         
-    
-
-    
 
        return parametre
 
