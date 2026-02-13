@@ -8,7 +8,6 @@ import pickle
 
 
 
-
 # Fonction d’initialisation qui permet d’initialiser les paramètres w et b
 def initialize_parameters(X, dimensions):
     
