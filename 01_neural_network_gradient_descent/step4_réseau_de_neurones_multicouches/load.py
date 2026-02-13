@@ -11,8 +11,8 @@ def load_parametres():
     parametre = pickle.load(f)      # Charge l'objet Python sauvegardé dans le fichier 'f'
 
  print("Paramètres chargés !")
- #for key in parametre:
-  #  print(parametre[key].shape)
+ for key in parametre:
+   print(key,parametre[key].shape)
 
  #print(parametre)
  

@@ -51,14 +51,18 @@ def model( X, parametre):
     
          z = w.dot(A) + b # Broadcasting : NumPy étire b1 pour qu'il corresponde aux dimensions de w1
          A = 1 / (1 + np.exp(-z))  #On calcule l'activation de chaque couche puis on l'ajoute dans le dictionnaire
- 
+         #print("shape du Afinal", A.shape)
          activation["Afinal"]=A         
        else:
          w = parametre["w"+str(i)]
          b=parametre["b"+str(i)]
         # print("b dans la fonction model",b)
-       
-        
+         '''
+         print("iteration",i)
+         print(b.shape)
+         print(w.shape)
+         print(A.shape)
+         '''
          z = w.dot(A) + b # Broadcasting : NumPy étire b1 pour qu'il corresponde aux dimensions de w1
          A = 1 / (1 + np.exp(-z))  #On calcule l'activation de chaque couche puis on l'ajoute dans le dictionnaire
          
@@ -136,24 +140,30 @@ def update_parameters(a,gradiant,parametre,lenght):
  return  parametre
 
 
-def predict(Y, parametre, predict):
+def predict(Y, parametre, predict, dataset):
     
  
 
-  if(predict):
+  if((predict)&(dataset=="cat_dog")):
            
        activation = model(Y, parametre)
        A2= activation["Afinal"]
        print("c'est un chat à",A2*100, "%")
        return 
-    
+  
+  if ((predict)&(dataset=="points")):
+      activation=model(Y,parametre)
+      A2=activation["Afinal"]
+      print("le point est jaunne à", A2*100,"%")
+      return      
+  
   else:
       activation = model(Y, parametre)
       A2= activation["Afinal"]
       return A2>=0.5  
 
 # Fonction finale qui combine toutes les fonctions précédentes dans une boucle avec un nombre d’itérations fixé. Plus ce nombre est grand, plus le modèle s’entraîne longtemps.
-def Neuron_network(X, y,dimensions,a=0.001, n_inter=2000):
+def Neuron_network(X, y,dimensions,dataset,a=0.01, n_inter=3500):
   
     parametre = initialize_parameters(X,dimensions)
     print("en entraînement")
@@ -166,12 +176,12 @@ def Neuron_network(X, y,dimensions,a=0.001, n_inter=2000):
         grad,lenght = compute_gradients(X,y, parametre, activation)
         parametre = update_parameters(a,grad, parametre,lenght)
         if i % 100 == 0:
-          y_pred = predict(X, parametre,False)
+          y_pred = predict(X, parametre,False, dataset)
           acc.append(accuracy_score(y.flatten(), y_pred.flatten()))
 
          # Calcule le taux de précision entre les vraies étiquettes (y) et les prédictions (y_pred)
         if(i==n_inter-1):
-           print("Le model est précis à ",loss[n_inter-1]*100,"%")
+           print("L'erreur finale est de",loss[n_inter-1]*100,"%")
          
 
 
@@ -181,7 +191,7 @@ def Neuron_network(X, y,dimensions,a=0.001, n_inter=2000):
     # Affichage de la fonction log_loss
     plt.figure(figsize=(8, 5))
     plt.plot(loss, color='blue', linewidth=2)
-    plt.title("Évolution du Log Loss pendant l'apprentissage, dataset : 2 spirales, architecture : 2,120,120,120,120,1  nombre itérations=2000 a=0.001", fontsize=14)
+    plt.title("Évolution du Log Loss pendant l'apprentissage, dataset : 2 spirales, architecture : 2,120,120,120,120,1  nombre itérations=3500 a=0.01", fontsize=14)
     plt.xlabel("Itérations", fontsize=12)
     plt.ylabel("Log Loss", fontsize=12)
     plt.grid(True)
@@ -190,7 +200,7 @@ def Neuron_network(X, y,dimensions,a=0.001, n_inter=2000):
     plt.show()
     # On ouvre un fichier en mode écriture binaire ("wb")
     
-    with open("parametres_nn_multicouche_2_spirales_2_120_120_120_120_1_a_0.001_ité_2000.pkl", "wb") as f:
+    with open("parametres_nn_multicouche_2_spirales_2_120_120_120_120_1_a_0.01_ité_3500.pkl", "wb") as f:
      pickle.dump(parametre, f)
 
      print("Paramètres sauvegardés avec succès !")
